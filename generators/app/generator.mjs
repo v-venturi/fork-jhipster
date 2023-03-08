@@ -39,6 +39,7 @@ import { applicationTypes, applicationOptions, clientFrameworkTypes } from '../.
 import { MONITORING_TYPE } from '../base-application/types.mjs';
 
 const { MICROSERVICE } = applicationTypes;
+const { MONOLITH } = applicationTypes;
 const { NO: CLIENT_FRAMEWORK_NO } = clientFrameworkTypes;
 const { JHI_PREFIX, BASE_NAME, JWT_SECRET_KEY, PACKAGE_NAME, PACKAGE_FOLDER, REMEMBER_ME_KEY } = applicationOptions.OptionNames;
 
@@ -335,7 +336,7 @@ export default class JHipsterAppGenerator extends BaseApplicationGenerator {
           this.jhipsterConfig.skipClient = this.jhipsterConfig.skipClient || this.jhipsterConfig.clientFramework === CLIENT_FRAMEWORK_NO;
         }
 
-        if (this.jhipsterConfig.applicationType ===  MONOLITH) {
+        if (this.jhipsterConfig.applicationType === MONOLITH) {
           this.jhipsterConfig.withAdminUi = false;
           this.jhipsterConfig.skipUserManagement = true;
         }
