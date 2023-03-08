@@ -18,20 +18,17 @@
     "Docker",
     "JDL"
   ],
-  "homepage": "https://www.jhipster.tech/",
+  "homepage": "https://github.com/v-venturi/fork-jhipster.git/",
   "bugs": {
-    "url": "https://github.com/jhipster/generator-jhipster/issues"
+    "url": "https://github.com/v-venturi/fork-jhipster/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhipster/generator-jhipster.git"
+    "url": "https://github.com/v-venturi/fork-jhipster.git"
   },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/generator-jhipster"
-  },
+
   "license": "Apache-2.0",
-  "author": "Julien Dubois (https://github.com/jdubois)",
+
   "type": "module",
   "exports": {
     ".": "./dist/lib/index.mjs",
