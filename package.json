@@ -1,6 +1,6 @@
 {
   "name": "fork-jhipster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spring Boot + Angular/React/Vue in one handy generator",
   "keywords": [
     "yeoman-generator",
