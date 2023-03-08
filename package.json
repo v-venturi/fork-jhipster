@@ -1,6 +1,6 @@
 {
-  "name": "generator-jhipster",
-  "version": "7.9.3",
+  "name": "fork-jhipster",
+  "version": "1.0.0",
   "description": "Spring Boot + Angular/React/Vue in one handy generator",
   "keywords": [
     "yeoman-generator",
@@ -19,7 +19,9 @@
     "JDL"
   ],
   "homepage": "https://www.jhipster.tech/",
-  "bugs": "https://github.com/jhipster/generator-jhipster/issues",
+  "bugs": {
+    "url": "https://github.com/jhipster/generator-jhipster/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jhipster/generator-jhipster.git"
@@ -29,11 +31,7 @@
     "url": "https://opencollective.com/generator-jhipster"
   },
   "license": "Apache-2.0",
-  "author": {
-    "name": "Julien Dubois",
-    "email": "",
-    "url": "https://github.com/jdubois"
-  },
+  "author": "Julien Dubois (https://github.com/jdubois)",
   "type": "module",
   "exports": {
     ".": "./dist/lib/index.mjs",
@@ -171,5 +169,9 @@
     "type": "opencollective",
     "url": "https://opencollective.com/generator-jhipster",
     "logo": "https://opencollective.com/opencollective/logo.txt"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
