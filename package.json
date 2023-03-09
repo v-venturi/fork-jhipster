@@ -1,22 +1,9 @@
 {
-  "name": "generator-jhipster",
+  "name": "fork-jhipster",
   "version": "1.0.3",
   "description": "Spring Boot + Angular/React/Vue in one handy generator",
   "keywords": [
-    "yeoman-generator",
-    "Java",
-    "Spring",
-    "Spring Boot",
-    "Spring Security",
-    "JPA",
-    "Hibernate",
-    "React",
-    "Angular",
-    "Vue",
-    "Twitter Bootstrap",
-    "Webpack",
-    "Docker",
-    "JDL"
+
   ],
   "homepage": "https://github.com/v-venturi/fork-jhipster.git/",
   "bugs": {
