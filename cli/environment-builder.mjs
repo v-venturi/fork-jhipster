@@ -101,12 +101,7 @@ export default class EnvironmentBuilder {
   }
 
   async prepare({ blueprints, lookups } = {}) {
-    await this._lookupJHipster()
-      ._lookupLocalBlueprint()
-      ._loadBlueprints(blueprints)
-      ._lookups(lookups)
-      ._lookupBlueprints()
-      ._loadSharedOptions();
+    await this._lookupLocalBlueprint()._loadBlueprints(blueprints)._lookups(lookups)._lookupBlueprints()._loadSharedOptions();
     return this;
   }
 

@@ -23,7 +23,7 @@ import TerminalAdapter from 'yeoman-environment/lib/adapter';
 
 import { Logger, CLI_LOGGER } from '../generators/base/support/index.mjs';
 
-export const CLI_NAME = 'fork';
+export const CLI_NAME = 'jhipster';
 export const GENERATOR_NAME = 'generator-jhipster';
 
 const SUCCESS_MESSAGE = `Congratulations, JHipster execution is complete!
