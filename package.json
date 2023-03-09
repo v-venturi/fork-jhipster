@@ -148,7 +148,7 @@
     "jest-mock": "29.5.0",
     "jsdoc": "4.0.2",
     "mocha": "10.2.0",
-    "mocha-expect-snapshot": "6.2.0",
+    "mocha-expect-snapshot": "7.0.0",
     "open-cli": "7.1.0",
     "rimraf": "4.3.1",
     "sinon": "15.0.1",
